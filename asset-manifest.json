@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/studentashu/commonhub_assigment/static/css/main.7216c4c1.css",
-    "main.js": "/studentashu/commonhub_assigment/static/js/main.304dc5b7.js",
+    "main.js": "/studentashu/commonhub_assigment/static/js/main.70aa1eb4.js",
     "static/js/453.0d44683a.chunk.js": "/studentashu/commonhub_assigment/static/js/453.0d44683a.chunk.js",
     "index.html": "/studentashu/commonhub_assigment/index.html",
     "main.7216c4c1.css.map": "/studentashu/commonhub_assigment/static/css/main.7216c4c1.css.map",
-    "main.304dc5b7.js.map": "/studentashu/commonhub_assigment/static/js/main.304dc5b7.js.map",
+    "main.70aa1eb4.js.map": "/studentashu/commonhub_assigment/static/js/main.70aa1eb4.js.map",
     "453.0d44683a.chunk.js.map": "/studentashu/commonhub_assigment/static/js/453.0d44683a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7216c4c1.css",
-    "static/js/main.304dc5b7.js"
+    "static/js/main.70aa1eb4.js"
   ]
 }
