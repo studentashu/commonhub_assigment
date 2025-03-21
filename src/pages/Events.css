@@ -1,0 +1,163 @@
+/* General Styles */
+.events-container {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Header */
+.events-header {
+  margin-bottom: 30px;
+}
+
+.events-header h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff7eb3, #ff758c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.events-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* Filter Dropdown */
+.filter-container {
+  margin-bottom: 20px;
+}
+
+.filter-container select {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #ff8c00; /* Orange */
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.filter-container select:hover {
+  background: #ff6b00;
+}
+
+/* Event Form */
+.event-form-container {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.event-form-container h2 {
+  color: #6a11cb;
+}
+
+.event-form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.event-form-container input,
+.event-form-container select {
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 2px solid #2575fc;
+  background: #eef4ff;
+}
+
+/* Submit Button */
+.event-form-container button {
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.event-form-container button:hover {
+  background: linear-gradient(45deg, #96c68e, #42d2ae);
+}
+
+/* Event List */
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Event Card */
+.event-card {
+  background: linear-gradient(135deg, #fddb92, #d1fdff);
+  color: black;
+  padding: 20px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.event-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.event-category {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: #ff4081;
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  margin: 5px 0;
+}
+
+/* Join Button */
+.join-button {
+  padding: 12px;
+  font-size: 1rem;
+  color: white;
+  background: linear-gradient(45deg, #34c759, #0a84ff);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.join-button:hover {
+  background: linear-gradient(45deg, #7e94a8, #5adbff);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .events-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .event-card {
+    width: 90%;
+  }
+}
