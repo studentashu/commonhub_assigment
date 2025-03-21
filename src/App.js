@@ -1,9 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
 import "./App.css";
 import About from "./pages/About";
+console.log("React app has loaded!");
+alert("React app has loaded!");
 
 function App() {
   return (
@@ -15,6 +17,9 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/events">Events</Link></li>
             <li><Link to="/about">About</Link></li>
+            console.log("React app has loaded!");
+alert("React app has loaded!");
+
           </ul>
         </nav>
         <Routes>
